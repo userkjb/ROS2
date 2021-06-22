@@ -1,0 +1,5 @@
+string play_sound_name
+bool is_need_done
+string[] play_list
+---
+bool is_play_end
