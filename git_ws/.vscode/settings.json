@@ -1,0 +1,38 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/robot/workspace/git_ws/install/msg_srv/lib/python3.8/site-packages",
+    "/home/robot/opencv_ws/install/ros2_markertracker_interfaces/lib/python3.8/site-packages",
+    "/home/robot/opencv_ws/build/ros2_markertracker",
+    "/home/robot/opencv_ws/install/ros2_markertracker/lib/python3.8/site-packages",
+    "/home/robot/opencv_ws/install/aruco/lib/python3.8/site-packages",
+    "/home/robot/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages",
+    "/home/robot/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages",
+    "/home/robot/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages",
+    "/home/robot/nav2_ws/build/nav2_gazebo_spawner",
+    "/home/robot/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages",
+    "/home/robot/nav2_ws/install/nav2_common/lib/python3.8/site-packages",
+    "/home/robot/mobility_ws/install/msg_srv/lib/python3.8/site-packages",
+    "/home/robot/turtlebot3_ws/build/turtlebot3_teleop",
+    "/home/robot/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages",
+    "/home/robot/turtlebot3_ws/build/turtlebot3_example",
+    "/home/robot/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages",
+    "/home/robot/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages",
+    "/home/robot/colcon_ws/install/realsense_msgs/lib/python3.8/site-packages",
+    "/home/robot/colcon_ws/install/msg_srv/lib/python3.8/site-packages",
+    "/home/robot/colcon_ws/install/msg_action/lib/python3.8/site-packages",
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+  "files.associations": {
+    "*.repos": "yaml",
+    "*.world": "xml",
+    "*.xacro": "xml",
+    "sstream": "cpp",
+    "regex": "cpp",
+    "functional": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp"
+  }
+}

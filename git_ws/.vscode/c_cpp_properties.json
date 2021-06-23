@@ -1,0 +1,60 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/robot/workspace/git_ws/install/msg_srv/include/**",
+        "/home/robot/opencv_ws/install/usb_cam/include/**",
+        "/home/robot/opencv_ws/install/ros2_shared/include/**",
+        "/home/robot/opencv_ws/install/ros2_markertracker_interfaces/include/**",
+        "/home/robot/opencv_ws/install/aruco/include/**",
+        "/home/robot/nav2_ws/install/smac_planner/include/**",
+        "/home/robot/nav2_ws/install/nav2_controller/include/**",
+        "/home/robot/nav2_ws/install/dwb_plugins/include/**",
+        "/home/robot/nav2_ws/install/dwb_critics/include/**",
+        "/home/robot/nav2_ws/install/dwb_core/include/**",
+        "/home/robot/nav2_ws/install/nav_2d_utils/include/**",
+        "/home/robot/nav2_ws/install/dwb_msgs/include/**",
+        "/home/robot/nav2_ws/install/nav_2d_msgs/include/**",
+        "/home/robot/nav2_ws/install/nav2_waypoint_follower/include/**",
+        "/home/robot/nav2_ws/install/nav2_recoveries/include/**",
+        "/home/robot/nav2_ws/install/nav2_planner/include/**",
+        "/home/robot/nav2_ws/install/nav2_navfn_planner/include/**",
+        "/home/robot/nav2_ws/install/nav2_core/include/**",
+        "/home/robot/nav2_ws/install/costmap_queue/include/**",
+        "/home/robot/nav2_ws/install/nav2_costmap_2d/include/**",
+        "/home/robot/nav2_ws/install/nav2_voxel_grid/include/**",
+        "/home/robot/nav2_ws/install/nav2_rviz_plugins/include/**",
+        "/home/robot/nav2_ws/install/nav2_map_server/include/**",
+        "/home/robot/nav2_ws/install/nav2_lifecycle_manager/include/**",
+        "/home/robot/nav2_ws/install/nav2_bt_navigator/include/**",
+        "/home/robot/nav2_ws/install/nav2_behavior_tree/include/**",
+        "/home/robot/nav2_ws/install/nav2_amcl/include/**",
+        "/home/robot/nav2_ws/install/nav2_util/include/**",
+        "/home/robot/nav2_ws/install/nav2_msgs/include/**",
+        "/home/robot/mobility_ws/install/udp_driver/include/**",
+        "/home/robot/mobility_ws/install/serial_driver/include/**",
+        "/home/robot/mobility_ws/install/msg_srv/include/**",
+        "/home/robot/mobility_ws/install/mobility_gazebo/include/**",
+        "/home/robot/mobility_ws/install/mobility_fake/include/**",
+        "/home/robot/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/robot/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/robot/turtlebot3_ws/install/turtlebot3_msgs/include/**",
+        "/home/robot/colcon_ws/install/realsense_ros/include/**",
+        "/home/robot/colcon_ws/install/realsense_msgs/include/**",
+        "/home/robot/colcon_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/robot/colcon_ws/install/msg_srv/include/**",
+        "/home/robot/colcon_ws/install/msg_action/include/**",
+        "/home/robot/colcon_ws/install/image_transport/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/robot/workspace/git_ws/src/robot_pose/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
