@@ -35,7 +35,7 @@ void RobotPose::SubSetting(rclcpp::QoS qos)
 
 void RobotPose::PubSetting(rclcpp::QoS qos)
 {
-  pub_robot_position_ = this->create_publisher<geometry_msgs::msg::Transform>("robot_position", qos);
+  pub_robot_position_ = this->create_publisher<geometry_msgs::msg::Transform>("mobility/position", qos);
 }
 
 void RobotPose::TF2CallBack(const tf2_msgs::msg::TFMessage::SharedPtr tfmsg)
