@@ -59,6 +59,7 @@ set(msg_files
 
 set(srv_files
   "srv/SoundPlay.srv"
+  "srv/LogFileInfo.srv"
 )
 
 set(action_files
