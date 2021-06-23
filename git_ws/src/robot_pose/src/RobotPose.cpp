@@ -11,7 +11,7 @@ RobotPose::RobotPose() : Node("RobotPose")
 
 RobotPose::~RobotPose()
 {
-
+  RCLCPP_INFO(this->get_logger(), "End RobotPose Node");
 }
 
 
