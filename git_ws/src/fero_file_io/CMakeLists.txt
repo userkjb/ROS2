@@ -18,6 +18,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(action_msg_srv REQUIRED)
 
 # Include
 include_directories(include)
@@ -29,6 +31,8 @@ add_executable(${PROJECT_NAME}
 )
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
+  std_msgs
+  action_msg_srv
 )
 
 
