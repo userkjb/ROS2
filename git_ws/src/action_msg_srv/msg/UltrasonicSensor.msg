@@ -1,0 +1,7 @@
+# std_msgs/Header header
+uint16 ultrasonic_sensor_front
+uint16 ultrasonic_sensor_left_front
+uint16 ultrasonic_sensor_left_rear
+uint16 ultrasonic_sensor_right_front
+uint16 ultrasonic_sensor_right_rear
+uint16 ultrasonic_sensor_rear

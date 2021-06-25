@@ -1,0 +1,5 @@
+# std_msgs/Header header
+uint16 bottom_sensor_left_front_bottom
+uint16 bottom_sensor_right_front_bottom
+uint16 bottom_sensor_left_rear_bottom
+uint16 bottom_sensor_right_rear_bottom
