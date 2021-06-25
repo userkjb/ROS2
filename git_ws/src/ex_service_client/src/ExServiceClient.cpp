@@ -3,12 +3,10 @@
 ExServiceClient::ExServiceClient(const rclcpp::NodeOptions& node_options)
   : Node("ex_service_client", node_options)
 {
-  std::cout << "111" << std::endl;
-
   handle_client_ = this->create_client<action_msg_srv::srv::LogFileInfo>("log_service");
 
-  std::cout << "222" << std::endl;
   timer_ = this->create_wall_timer(1s, std::bind(&ExServiceClient::timer_function, this));
+
   while(!handle_client_->wait_for_service(1s))
   {
     if(!rclcpp::ok())
@@ -35,12 +33,14 @@ void ExServiceClient::send_request()
 {
   auto request = std::make_shared<LogSRV::Request>();
 
+  // request->string = "asdf";
 
   using ServiceResponseFuture = rclcpp::Client<LogSRV>::SharedFuture;
+
   auto response_received_callback = [this](ServiceResponseFuture future){
     auto response = future.get();
-    RCLCPP_INFO(this->get_logger(), "Result base_path : %s", response->base_path);
-    RCLCPP_INFO(this->get_logger(), "Result file_name : %s", response->file_name);
+    RCLCPP_INFO(this->get_logger(), "Result base_path : %s", response->base_path.c_str());
+    RCLCPP_INFO(this->get_logger(), "Result file_name : %s", response->file_name.c_str());
     return;
   };
 
