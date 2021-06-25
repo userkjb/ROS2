@@ -11,12 +11,13 @@ ExServiceServer::ExServiceServer() : Node("ex_service_server")
     {
       // response_str_base_path_ = request-> ;
       // response_str_file_name_ = request-> ;
+
       if(request == NULL) std::cout << "null" << std::endl;
       response->base_path = response_str_base_path_;
       response->file_name = response_str_file_name_;
 
-      RCLCPP_INFO(this->get_logger(), "base_path = %s", response->base_path);
-      RCLCPP_INFO(this->get_logger(), "file_name = %s", response->file_name);
+      RCLCPP_INFO(this->get_logger(), "base_path = %s", response->base_path.c_str());
+      RCLCPP_INFO(this->get_logger(), "file_name = %s", response->file_name.c_str());
     };
 
   handle_server_ = create_service<LogSRV>("log_service", recv_request);
