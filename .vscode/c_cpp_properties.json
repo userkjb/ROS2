@@ -8,12 +8,13 @@
       "includePath": [
         "/opt/ros/foxy/include/**",
         "/usr/include/**",
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/home/robot/workspace/git_ws/install/action_msg_srv/include/**"
       ],
       "name": "Linux",
       "compilerPath": "/usr/bin/g++",
       "cStandard": "c99",
-      "cppStandard": "c++17",
+      "cppStandard": "c++14",
       "intelliSenseMode": "linux-gcc-x64"
     }
   ],
