@@ -1,0 +1,4 @@
+imu_test_node:
+  ros__parameters:
+    name: "/dev/ttyIMU"
+    baudrate: 115200
