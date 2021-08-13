@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/foxy/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/apriltag_docking/autodock_controller/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/apriltag_ros/apriltag_ros/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/neuronbot2/neuronbot2_bringup/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/rplidar_ros/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/serial/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/slam_gmapping/openslam_gmapping/include/**",
+        "/home/robot/workspace/autodock_ros2_ws/src/slam_gmapping/slam_gmapping/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
